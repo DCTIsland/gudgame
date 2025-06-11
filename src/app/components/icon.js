@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Icon({ items }) {
+export default function Icon({ items = [] }) {
   return (
     <div className="w-full h-14 flex flex-row justify-around items-center">
       {items.map((item, index) => (
