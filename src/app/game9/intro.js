@@ -47,7 +47,7 @@ export default function Game9Intro() {
           const items = [
             "歡迎來到祭典抽籤機！",
             "請以←↑→的順序按鍵盤上的方向鍵，完成一次轉動，請完成五次轉動開獎！",
-            "中獎可獲得10分，未中獎則扣5分，現有分數超過5分時即可遊玩！",
+            "中獎可獲得20分，未中獎則扣5分，現有分數超過5分時即可遊玩！",
             "溫馨提醒：小賭怡情，大賭傷身心",
           ];
           const fontSize = items.length >= 4 ? "clamp(14px, 2vw, 17px)" : "clamp(16px, 2.5vw, 20px)";
